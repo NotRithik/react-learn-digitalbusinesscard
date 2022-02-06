@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
 
-import linkedinLogo from '../icons/linkedin.png'
+import linkedinLogo from '../icons/linkedin.svg'
 
 export default function() {
     return (
