@@ -1,38 +1,170 @@
-.App {
+.digital-business-card {
+  width: 317px;
+  
+  border-radius: 10px;
+  margin: 44px;
+
+  background: #1A1B21;
+  
+  box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.45);
+  
+  overflow: hidden;
+}
+
+.digital-business-card-image {
+  width: 317px;
+  
+  margin-top: -120px;
+}
+
+.digital-business-card-image-wrapper {
+  max-width: 317px;
+  height: 317px;
+  
+  overflow: hidden;
+}
+
+.digital-business-card-body__name_heading {
+  margin: 0px;
+  margin-top: 21px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
   text-align: center;
+  
+  color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.digital-business-card-body__description_heading {
+  margin: 0px;
+  margin-top: 6px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #F3BF99;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.digital-business-card__website {
+  margin: 0px;
+  margin-top: 9px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #F5F5F5;
+  
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.digital-business-card-contact-buttons-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 15px 35px 33px 35px;
+}
+
+.digital-business-card-contact-buttons-wrapper-spacing-div {
+  width: 17px;
+  height: 100%;
+}
+
+.body-contact-button {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  
+  width: 115px;
+  height: 34px;
+
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  
+  
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  
+  cursor: pointer;
+}
+
+
+.body-contact-button > img {
+  width: 13px;
+  margin-right: 10px;
+}
+
+.linkedin-button {
+  background-color: #5093E2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.linkedin-button > img {
+  width: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email-buitton {
+  background-color: #FFFFFF;
+}
+
+.digital-business-card__footer {
+  background: #161619;
+  
+  height: 64px;
+}
+
+.digital-business-card__body_text_wrapper {
+  margin: 0px;
+  padding: 0px 36px 24px;
+}
+
+.digital-business-card__heading {
+  margin: 0px;
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  
+  color: #F5F5F5;
+}
+
+.digital-business-card__text {
+  margin: 0px;
+  margin-top: 5px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+
+  color: #DCDCDC;
+}
+
+.digital-business-card__about_text {
+  margin-bottom: 27px;
+}
+
+.digital-business-card__footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer_icon {
+  width: 35px;
+  margin: 0px 6px;
+  
+  cursor: pointer;
 }
