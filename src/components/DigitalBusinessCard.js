@@ -9,11 +9,13 @@ import facebookIcon from '../icons/facebook.svg'
 import instagramIcon from '../icons/instagram.svg'
 import githubIcon from '../icons/github.svg'
 
+import rithiksPhoto from '../images/Rithik.jpg'
+
 function DigitalBusinessCard() {
     return (
         <div className="digital-business-card">
             <div className="digital-business-card-image-wrapper">
-                <img src="./Components/Images/Rithik.jpg" className="digital-business-card-image" />
+                <img src={rithiksPhoto} className="digital-business-card-image" />
             </div>
 
             <div className="digital-business-card-body">
