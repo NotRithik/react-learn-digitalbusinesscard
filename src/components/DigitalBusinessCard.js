@@ -11,10 +11,10 @@ import githubIcon from '../icons/github.svg'
 
 import rithiksPhoto from '../images/Rithik.jpg'
 
-let twitterUrl = 'https://twitter.com/'
-let facebookUrl = 'https://facebook.com/'
-let instagramUrl = 'https://instagram.com/'
-let githubUrl = 'https://github.com/'
+let twitterUrl = 'https://twitter.com/DVX333'
+let facebookUrl = 'https://www.facebook.com/rithik.kumar.5648137/'
+let instagramUrl = 'https://www.instagram.com/not.rithik/'
+let githubUrl = 'https://github.com/NotRithik'
 
 class DigitalBusinessCard extends React.Component {
     render() {
@@ -56,7 +56,7 @@ class DigitalBusinessCard extends React.Component {
                     <a href={instagramUrl} className="footer_anchor" target="_blank">
                         <img className="footer_icon" src={instagramIcon} />
                     </a>
-                    
+
                     <a href={githubUrl} className="footer_anchor" target="_blank">
                         <img className="footer_icon" src={githubIcon} />
                     </a>
