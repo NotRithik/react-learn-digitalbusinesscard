@@ -1,7 +1,9 @@
 .app-root {
   width: 100%;
   height: 100%;
+
   background-color: #23252C;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,11 +172,14 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
+}
+
+.footer_anchor {
+  margin: 0px 6px;
 }
 
 .footer_icon {
   width: 35px;
-  margin: 0px 6px;
-  
-  cursor: pointer;
+  margin: 0px;
 }
